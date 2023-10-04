@@ -9,4 +9,4 @@ jobs:
               env:
                 ACTIONS_STEP_DEBUG: true
               with:
-                milliseconds: 2000
+                milliseconds: 3000
