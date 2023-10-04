@@ -5,8 +5,8 @@ jobs:
     ci:
         runs-on: ubuntu-latest
         steps:
-            - uses: culturedays/cd-public-test-action@v1
+            - uses: culturedays/cd-public-test-action@v2
               env:
                 ACTIONS_STEP_DEBUG: true
               with:
-                milliseconds: 4000
+                milliseconds: 3000
