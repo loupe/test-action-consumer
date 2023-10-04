@@ -5,7 +5,7 @@ jobs:
     ci:
         runs-on: ubuntu-latest
         steps:
-            - uses: bakerkretzmar/cd-public-test-action@v2
+            - uses: bakerkretzmar/cd-public-test-action@v1
               env:
                 ACTIONS_STEP_DEBUG: true
               with:
